@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build Local Container
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v5
         with:
          tags: localbuild/testimage:latest
          push: false
